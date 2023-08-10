@@ -1,4 +1,30 @@
-@media screen and (max-width:1600px){
+@media screen and (max-width:1700px){
+    .titulo-conteudo-informativo-p1 {
+        font-family: 'quicksandbold';
+        width: 100px;
+        height: auto;
+        padding: 10px;
+        padding-right: 430px;
+        padding-left: 50px;
+        opacity: 1;
+        align-items: center;
+        color: white;
+        display: flex;
+        font-size: 2.8em;
+    }
+    .conteudo-p1{
+        position: relative;
+        right: 70px;
+        
+    }
+    .conteudo-secundario-p3{
+        font-size: 12px;
+        
+    }
+    .conteudo-secundario-p2 {
+        margin-left: 7%;
+
+    }
     .primeiro-conteudo > h1{
  
         font-size: clamp(1.5em, 2.5em + 2vw, 5.8em);
@@ -28,11 +54,39 @@
             margin-left: 8%; 
         }
         #submit {
-
             width: 21%;
         }
 }
-@media screen and (max-width:1400px){
+@media screen and (max-width:1500px){
+    .footer-bottom{
+        padding-right: 100px;
+    }
+    footer .footer-top p{
+        width: 90%;
+        height: 200px;     
+    }
+    footer{
+        font-size: 15px;
+    }
+    .conteudo-secundario-p3 .titulo-conteudo-informativo-p1{
+        padding-left: 0px;
+        
+    }
+    .conteudo-p1{
+        position: relative;
+        top: -50px;
+        padding-left: 50px;
+
+    }
+    .conteudo-secundario-p3{
+        align-items: center;
+        position: relative;
+        top: 30px;
+        font-size: 15px;
+        flex-direction: column;
+        padding-left: 180px;
+        
+    }
     .text1 {
         font-size: clamp(1.2em, 1.3em + 1vw, 1.5em);
         font-family: 'quicksandregular';
@@ -102,12 +156,102 @@ width: 360px;
     font-size: 15px;
 }
 #submit{
-    width: 26%;
-    font-size: 17px;
+    width: 31%;
+    font-size: 15px;
 }
 }
 /* RESPONSIVIDADE NAVBAR */
-@media (max-width: 992px){
+@media (max-width: 1200px){
+    .footer-bottom{
+        /* background: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    footer{
+        font-size: 15px;
+    }
+    footer .footer-top p{
+        width: 80%;
+        height: 200px;
+        
+    }
+    .conteudo-secundario-p2 {
+        margin-left: 110px;
+
+    }
+    .titulo-conteudo-informativo-p2 {
+        font-size: clamp(1.5em, 4em + 3vw, 4.9em);
+
+    }
+    
+    .conteudo-informativo-3{
+        height: 700px;
+    }
+    .text1{
+        padding-left: 20px;
+    }
+    .icon img{
+        width: 40px;
+        height: 40px;
+    }
+    .conteudo-secundario-p1{
+        position: relative;
+        top: -40px;
+        font-size: 12px;
+    }
+    .titulo-conteudo-informativo-p1{
+        font-size: 25px;
+        position: relative;
+        right: 170px;
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+    .conteudo-p1{
+        font-size: 15px;
+        position: relative;
+        right: 213px;
+        margin-left: 30px;
+        width: 55%;
+    }
+    .git-p2{
+        position: relative;
+        top: 20px;
+        width: 45%;
+        height: 50%;
+    }
+    .conteudo-secundario-p3{
+        width: 45%;
+    }
+    .backg .center{
+        top: 150px;
+    }
+    .gallery .card{
+        width: 220px;
+        height: 350px;
+    
+    }
+    .primeiro-conteudo {
+        font-size: 15px;
+        width: 50%;
+        height: 100%;
+}
+    #submit {
+        width: 40%;
+        font-size: 14px;
+    }
+    .nerus-imagem{
+        width: 40%;
+        height: 50%;
+    }
+    .conteudo-informativo-3{
+        font-size: 12px;
+    }
+    .git-p3{
+        width: 80%;
+        height: 65%;
+    }
+
     .navbar .links,
     .navbar .action_btn{
         display: none;
@@ -148,9 +292,56 @@ width: 360px;
 .dropdown_menu {
     display: block;
 }
-@media (max-width: 576px){
-.dropdown_menu{
+
+@media (max-width: 800px){
+    .footer-bottom{
+        /* background: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    footer{
+        font-size: 12px;
+    }
+    footer .footer-top p{
+        width: 60%;
+        height: 150px;
+        
+    }
+    .backg .center{
+        top: 230px;
+    }
+    .conteudo-informativo-3{
+        height: 500px;
+    }
+    .gallery .card{
+        top: 80px;
+        width: 10px;
+        height: 300px;
+    
+    }
+    .git-p3{
+        height: 60%;
+    }
+
+    .conteudo-p1{
+        
+        
+    }
+    .conteudo-secundario-p3{
+        width: 50%;
+    }
+    .conteudo-secundario-p2{
+        width: 85%;
+    }
+    .dropdown_menu{
     left: 2rem;
     width: unset;
+    }
+    #submit {
+        width: 60%;
+        font-size: 13px;
+    }
 }
+@media (max-width: 774px){
 }

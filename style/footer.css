@@ -1,28 +1,30 @@
+*{
+    margin: 0;
 
+}
 footer {
+    display: flex;
+    width: auto;
     color: white;
     overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: 420px;
-    left: 0px;
-    right: 0px;
-    justify-content: space-around;
-    margin-left: 0%;
-    /* bottom: 0px; */
+    height: 450px;
+   justify-content: space-between;
+    margin-left: 43px;
+    margin-right: 43px;
+
 }
 .footer-top-wrapper {
     display: flex;
-    margin: 0;
-    padding: 15px;
-    min-height: 160px;
-    width: 120px;
-    margin-right: 530px;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 15px;
+    width: auto;
+    /* min-height: 160px; */
+    /* margin-right: 530px; */
 }
 .footer-mid{
     font-family: 'quicksandbold';
-    width: 500px;
+    max-width: 450px;
     
 }
 .footer-mid h2{
@@ -33,19 +35,14 @@ footer {
 }
 .footer-mid p{
     font-family: 'quicksandbold';
-    font-weight: 200;
-    font-size: 1.3em;
-    width: 580px;
+    font-size: clamp(0.7em, 0.7em + 1vw, 1.1em);
+    width: 120%;
 }
 .footer-right{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin-left: 10%;
     margin-top: 100px;
-}
-.footer-top-wrapper > section {
-    width: 180px;
 }
 
 h2 {
@@ -78,9 +75,8 @@ menu li {
 .social-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 8px;
-    width: 180px;
+    gap: 25px; 
+    margin-top: 10px;
 }
 
 .social-links img {
@@ -88,26 +84,15 @@ menu li {
     height: 35px;
 }
 
-.footer-top {
-    position: relative; 
-    max-width: 800px;
-    top: 35px;
-
-}
-
 .footer-bottom {
-    padding-top: 110px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 200px;
-    margin: 0;
+    width: 300px;
+    justify-content: space-between ;
 }
 
+
 .footer-bottom > small {
-    margin-top: 200px;
-    width: 250px;
     font-size: 1em;
     margin: 0 4px;
 }
@@ -173,10 +158,8 @@ menu li {
 }
 .icon-footer-mid2{
     display: flex;
-    align-items: center;
+    margin: 0 auto;
     width: 300px;
-    padding: 50px;
-    margin-bottom: 70px;
 }
 .icon-footer-contato{
     width: 32px;
