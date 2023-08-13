@@ -37,8 +37,9 @@
     padding-left: 30px;
 }
 .subtitulo2{
+    
     font-family: 'quicksandregular';
-    font-size: clamp(1.3em, 1.5em + 1vw, 2.2em);
+    font-size: clamp(1.3em, 1.5em + 1vw, 2em);
     font-weight: 600;  
     color: #214426;
 }
@@ -302,6 +303,7 @@ text-align: center;
 }
 
 .conteudo-secundario-p2{
+    width: auto;
 display: flex;
 flex-direction: flex;
 margin-left: 10%;
@@ -363,6 +365,7 @@ margin-bottom: 10%;
 .titulo-conteudo-informativo-p2{
     font-family: 'quicksandbold';
     width: 100%;
+    margin-bottom: 15px;
     color: #214426;
     font-weight: 600;
     font-size: clamp(1.5em, 4em + 3vw, 5.9em);
@@ -371,7 +374,7 @@ margin-bottom: 10%;
 #gif{
     border-radius: 60px;
 }
-.git-p3{
+.gif-p3{
 margin-left: 10%;
 }
 .text-p3{
@@ -382,6 +385,7 @@ margin-left: 10%;
     width: 100%;
     
 }
+
 .plant2{
     width: 70px;
     height: 70px;

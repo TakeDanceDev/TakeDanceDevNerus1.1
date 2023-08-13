@@ -1,13 +1,16 @@
 *{
+    font-family: "quicksandbold";
     margin: 0;
+    padding: 0;
+box-sizing: border-box;
+letter-spacing: 0.5px;
 
 }
 footer {
-    display: flex;
+  display: flex;
     width: auto;
     color: white;
     overflow: hidden;
-    height: 450px;
    justify-content: space-between;
     margin-left: 43px;
     margin-right: 43px;
@@ -31,18 +34,20 @@ footer {
     opacity: 1;
     font-weight: bold;
     color: #fff;
-    font-size: 3em;
+    font-size: clamp(0.7em, 2em + 1vw, 3em);
 }
 .footer-mid p{
     font-family: 'quicksandbold';
-    font-size: clamp(0.7em, 0.7em + 1vw, 1.1em);
-    width: 120%;
+    font-size: clamp(0.5em, 0.4em + 2vw, 1.1em);
+    width: 100%;
+    font-weight: 200;
 }
 .footer-right{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 85px;
+    width: auto;
 }
 
 h2 {
@@ -85,19 +90,24 @@ menu li {
 }
 
 .footer-bottom {
+    position: relative;
+    right: 30px;
+    padding: 15px;
+    padding-top: 8em;
+    
+    
+}
+.footer-list  {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    justify-content: space-between ;
+    list-style: none;
+    gap: 2rem;
+    padding: 20px;
+  
 }
-
-
-.footer-bottom > small {
-    font-size: 1em;
-    margin: 0 4px;
-}
-.footer-bottom > h3{
-    padding-bottom: 150px;
+.footer-list  h3{
+    font-size: 1.3em;
+    display: flex;
 }
 #submit1{
     font-family: 'robotob';
@@ -144,8 +154,8 @@ menu li {
 }
 .text h3{
     font-family: 'quicksandbold';
-    width: 380px;
-    font-size: 1.9em;
+    width: 300px;
+    font-size: clamp(0.5em, 1em + 2vw, 2em);
 
 }
 .icon-footer{
@@ -154,7 +164,7 @@ menu li {
 .icon-footer-mid1{
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 220px;
 }
 .icon-footer-mid2{
     display: flex;
@@ -165,4 +175,9 @@ menu li {
     width: 32px;
     height: 32px;
     margin-right: 5px;
+}
+.small{
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }

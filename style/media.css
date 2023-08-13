@@ -47,7 +47,7 @@
         height: 500px;
 
     }
-    .git-p3{
+    .gif-p3{
         margin-left: 6%;
         }
         .conteudo-informativo-p3{
@@ -159,18 +159,12 @@ width: 360px;
     width: 31%;
     font-size: 15px;
 }
+
+
 }
 /* RESPONSIVIDADE NAVBAR */
 @media (max-width: 1200px){
-    .footer-bottom{
-        /* background: blue; */
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-    }
-    footer{
-        font-size: 15px;
-    }
+   
     footer .footer-top p{
         width: 80%;
         height: 200px;
@@ -201,20 +195,22 @@ width: 360px;
         font-size: 12px;
     }
     .titulo-conteudo-informativo-p1{
-        font-size: 25px;
+        font-size: clamp(1.5em, 1.5em + 1.6vw, 2em);
+        font-weight: 900;
         position: relative;
         right: 170px;
         padding-right: 0;
         padding-bottom: 50px;
     }
     .conteudo-p1{
-        font-size: 15px;
+        font-size: 17px;
         position: relative;
-        right: 213px;
+        font-weight: 400;
+        right: 230px;
         margin-left: 30px;
         width: 55%;
     }
-    .git-p2{
+    .gif-p2{
         position: relative;
         top: 20px;
         width: 45%;
@@ -247,9 +243,9 @@ width: 360px;
     .conteudo-informativo-3{
         font-size: 12px;
     }
-    .git-p3{
-        width: 80%;
-        height: 65%;
+    .gif-p3{
+        width: 70%;
+        height: 68%;
     }
 
     .navbar .links,
@@ -259,6 +255,24 @@ width: 360px;
 
     .navbar .toggle_btn{
         display: block;
+    }
+   
+   footer .footer-mid  h2{
+    font-size: clamp(0.7em, 1.4em + 1vw, 2em);
+    }
+    footer .text h3{
+        font-size: clamp(0.6em, 1em + 1vw, 1.8em);
+        width: 350px
+    }
+    footer #submit1 {
+        width: 80px;
+        font-size: 13px;
+      
+    }
+    footer #submit2 {
+        width: 150px;
+        font-size: 13px;
+      
     }
 }
 /* DROPDOWN MENU */
@@ -294,18 +308,11 @@ width: 360px;
 }
 
 @media (max-width: 800px){
-    .footer-bottom{
-        /* background: blue; */
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-    }
-    footer{
-        font-size: 12px;
-    }
-    footer .footer-top p{
-        width: 60%;
-        height: 150px;
+    
+    
+    .footer-bottom {
+        padding: 15px;
+        padding-top: 0em;
         
     }
     .backg .center{
@@ -316,18 +323,21 @@ width: 360px;
     }
     .gallery .card{
         top: 80px;
-        width: 10px;
-        height: 300px;
+        width: 160px;
+        height: 260px;
     
     }
-    .git-p3{
-        height: 60%;
+    .gif-p2{
+        margin-top: 12%;
+        width:auto ;
+        height: 370px;
+    }
+    .gif-p3{
+        width:auto ;
+        height: 370px;
     }
 
-    .conteudo-p1{
-        
-        
-    }
+
     .conteudo-secundario-p3{
         width: 50%;
     }
@@ -343,5 +353,71 @@ width: 360px;
         font-size: 13px;
     }
 }
-@media (max-width: 774px){
+@media (max-width: 730px){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudo-informativo-3{
+        display: flex;
+       flex-direction: column;   
+       padding-top: 10%;
+       padding: 25px;
+      
+        }
+    .conteudo-informativo{
+        width:90%;
+    }
+    .gif-p3{
+        position: relative;
+        top: 35px;
+        width:auto ;
+        height: 330px;
+    }
+    .gif-p2{
+        width:auto ;
+        height: 330px;
+    }
+.conteudo-secundario-p2{
+    margin-left: 50px;
+}
+.conteudo-p1{
+    margin-left: 0%;
+    font-size: 13px;
+}
+.titulo-conteudo-informativo-p2{
+    width: 350px;
+    font-size: 6em;
+}
+.titulo-conteudo-informativo-p1{
+    margin-left: 50px;
+    font-size: 20px;
+    
+    
+}
+.conteudo-secundario-p3{
+    margin-left: 0%;
+}
+footer .footer-bottom{
+    margin: auto;
+    padding: 0;
+}
+footer .footer-mid p{
+    font-size: 16px;
+    width: 100%;
+}
+footer .footer-right{
+    margin-top: 0;
+}
+}
+@media(max-width:560px){
+    #submit{
+    width: 70%;
+    font-size: 13px;
+    }
+   footer .footer-bottom ul{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    }
 }
