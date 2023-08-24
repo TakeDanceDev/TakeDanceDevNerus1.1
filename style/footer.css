@@ -7,57 +7,39 @@ letter-spacing: 0.5px;
 
 }
 footer {
-  display: flex;
+    display: flex;
     width: auto;
     color: white;
     overflow: hidden;
-   justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
     margin-left: 43px;
     margin-right: 43px;
-
+   
 }
 .footer-top-wrapper {
     display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin-top: 15px;
-    width: auto;
-    /* min-height: 160px; */
-    /* margin-right: 530px; */
-}
-.footer-mid{
-    font-family: 'quicksandbold';
-    max-width: 450px;
+    padding: 10px;
     
 }
-.footer-mid h2{
-    opacity: 1;
-    font-weight: bold;
-    color: #fff;
-    font-size: clamp(0.7em, 2em + 1vw, 3em);
+.footer-mid{
+    max-width: 450px;
+    padding: 15px;
+    
 }
-.footer-mid p{
-    font-family: 'quicksandbold';
-    font-size: clamp(0.5em, 0.4em + 2vw, 1.1em);
-    width: 100%;
-    font-weight: 200;
-}
+
 .footer-right{
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    margin-top: 85px;
+    padding: 15px;
     width: auto;
 }
-
-h2 {
-    text-align: left;
-    color: #3227a3;
-    margin-top: 0px;
-    margin-bottom: 16px;
-    opacity: 0.7;
-    font-size: 16px;
-    font-weight: 600;
+h3{
+    font-size: clamp(0.7em, 2em + 1vw, 1.8em);
+    opacity: 1;
+    font-weight: bold;
+    color: #fff;
 }
 
 menu {
@@ -73,7 +55,8 @@ menu li {
 
 
 .logo {
-    width: 180px;
+   
+    width: 140px;
     margin-bottom: 8px;
 }
 
@@ -91,7 +74,8 @@ menu li {
 
 .footer-bottom {
     position: relative;
-    right: 30px;
+    margin-right: 3%;
+    right: 40px;
     padding: 15px;
     padding-top: 8em;
     
@@ -113,14 +97,15 @@ menu li {
     font-family: 'robotob';
     font-size: 1em;
     height: 50px;
-    width: 90px;
+    width: auto;
     color:white;
     background-color:  #5c9434;
     border-radius: 15px;
     margin-top: 20px;
-    padding: 0px;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
     border: none;
-    margin-right: 30px;
+    
 }
 #submit2{
     font-family: 'robotob';
@@ -154,9 +139,8 @@ menu li {
 }
 .text h3{
     font-family: 'quicksandbold';
-    width: 300px;
-    font-size: clamp(0.5em, 1em + 2vw, 2em);
-
+    width: 413px;
+    font-size: clamp(0.7em, 2em + 1vw, 1.8em);
 }
 .icon-footer{
     margin-top: 5%;
@@ -180,4 +164,5 @@ menu li {
     display: flex;
     text-align: center;
     justify-content: center;
+    font-size: 15px;
 }
