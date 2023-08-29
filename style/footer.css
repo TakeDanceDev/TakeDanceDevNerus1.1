@@ -33,7 +33,6 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 15px;
-    width: auto;
 }
 h3{
     font-size: clamp(0.7em, 2em + 1vw, 1.8em);
@@ -56,7 +55,7 @@ menu li {
 
 .logo {
    
-    width: 140px;
+    width: 190px;
     margin-bottom: 8px;
 }
 
@@ -87,6 +86,7 @@ menu li {
     list-style: none;
     gap: 2rem;
     padding: 20px;
+    font-size: 25px;
   
 }
 .footer-list  h3{
@@ -94,7 +94,7 @@ menu li {
     display: flex;
 }
 #submit1{
-    font-family: 'robotob';
+    font-family: 'quicksandbold';
     font-size: 1em;
     height: 50px;
     width: auto;
@@ -105,21 +105,9 @@ menu li {
     align-items: center;
     padding: 10px 10px 10px 10px;
     border: none;
-    
-}
-#submit2{
-    font-family: 'robotob';
-    font-size: 1em;
-    height: 50px;
-    width: 180px;
-    color:white;
-    background-color:  #5c9434;
-    border-radius: 15px;
-    margin-top: 20px;
-    padding: 0px;
-    border: none;
     cursor: pointer;
 }
+
 #input_group input{
     padding: 0.75rem;
     width: 100%;

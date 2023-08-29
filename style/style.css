@@ -228,9 +228,10 @@ main{
     width: 71%;
     line-height: 25px;
     font-size: clamp(1em, 1.5em + 1vw, 1.5em);
-    font-family: 'quicksandbold';
-    font-weight: 400;
+    font-family: 'quicksandregular';
+    font-weight: 800;
     margin-top: -1.5rem;
+    
 }
 .nerus-imagem{
     /* position: relative;
@@ -291,7 +292,7 @@ height: 0 auto;
 .conteudo-secundario-paragrafo{
     font-family: 'quicksandregular';
     font-size: clamp(1.3em, 1.6em + 1vw, 1.5em);
-    font-weight: 500;
+    font-weight: 600;
     width: 60%;
     text-align: center;
     margin: auto;
