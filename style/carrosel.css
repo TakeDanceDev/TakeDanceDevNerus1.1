@@ -13,12 +13,12 @@
     display: grid;
     place-items: center;
     height: 100vh;
+    
 }
 
 .gallery {
     display: flex;
     left: calc(50% - 300px);
-    margin-top: 220px;
 }
 
 .card {

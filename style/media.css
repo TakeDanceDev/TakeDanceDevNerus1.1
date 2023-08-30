@@ -262,7 +262,7 @@ width: 360px;
     }
     footer .text h3{
         font-size: clamp(0.6em, 1em + 1vw, 1.8em);
-        width: 350px
+        width: auto;
     }
     footer #submit1 {
         width: auto;
@@ -362,6 +362,8 @@ width: 360px;
     footer{
         display: flex;
        /* flex-direction: column;*/
+       flex-wrap: wrap;
+       width: auto;
     }
     .conteudo-informativo-3{
         display: flex;
@@ -414,15 +416,29 @@ footer .footer-mid p{
 footer .footer-right{
     margin-top: 0;
     margin-left: 0;
+    align-items: center;
+    text-align: center;
 }
 footer .footer-right h3{
-   width: 170px;
+   width: 450px;
+   font-size: 25px;
+   text-align: center;
 }
+
 }
 @media(max-width:560px){
+    html{
+        width: 140%;
+        margin: 0;
+       
+    }
     #submit{
     width: auto;
     font-size: 15px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
     }
    footer .footer-bottom ul{
     display: flex;
@@ -451,6 +467,15 @@ footer .footer-right h3{
     }
     .primeiro-conteudo p{
         width: 400px;
+    }
+    footer .footer-right{
+        align-items: center;
+        text-align: center;
+    }
+    footer .footer-right h3{
+        width: 315px;
+        text-align: center;
+        
     }
 }
 @media(max-width:320px){
@@ -527,7 +552,7 @@ footer .footer-right{
 }
 footer .footer-right h3{
     font-size: 35px;
-    width: 410px;
+    width: 315px;
     text-align: center;
     
 }
@@ -541,6 +566,9 @@ footer #submit1 {
     width: auto;
     font-size: 22px;
     
+}
+.gallery{
+    margin-top: 270px;
 }
 }
 }

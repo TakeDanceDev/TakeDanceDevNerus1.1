@@ -16,11 +16,11 @@ footer {
     margin: 0;
     margin-left: 43px;
     margin-right: 43px;
-   
+
 }
 .footer-top-wrapper {
     display: flex;
-    padding: 10px;
+    padding: 20px;
     
 }
 .footer-mid{
@@ -49,7 +49,7 @@ menu {
 }
 
 menu li {
-    margin-bottom: 16px;
+    
 }
 
 
@@ -84,10 +84,9 @@ menu li {
     display: flex;
     flex-direction: column;
     list-style: none;
-    gap: 2rem;
-    padding: 20px;
+    gap: 1rem;
     font-size: 25px;
-  
+    margin-top: 25px;
 }
 .footer-list  h3{
     font-size: 1.3em;
